@@ -2,9 +2,17 @@ import React from 'react';
 import uncleBuck from './uncle-buck.gif';
 import './App.css';
 
+import useWindowSize from 'react-use/lib/useWindowSize'
+import Confetti from 'react-confetti'
+
 function App() {
+  const { width, height } = useWindowSize()
   return (
     <div className="App">
+    <Confetti
+      width={width}
+      height={height}
+    />
       <header className="App-header">
         <h1>Happy Birthday Sam Chan!</h1>
         <img src={uncleBuck} alt="logo" />

@@ -2,12 +2,14 @@
   "name": "happybirthdaysamchan",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://spwisner.github.io/happybirthdaysamchan/",
+  "homepage": "https://spwisner.github.io/happybirthdaysamchan/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
+    "react-confetti": "^3.1.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-use": "^8.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

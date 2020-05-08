@@ -18,7 +18,7 @@ function App() {
       <header className="App-header">
         <h1>Happy Birthday Sam Chan!</h1>
         <img src={babyYoda} alt="baby yoda" />
-        <h2>Top 3 Reasons Sam Is Awesome:</h2>
+        <h2>Top 4 Reasons Sam Is Awesome:</h2>
         <div style={{display: 'flex', textAlign: 'left'}}>
           <div>
             <p>1. She is willing to give a drum roll without needing to know why</p>

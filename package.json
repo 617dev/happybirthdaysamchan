@@ -1,13 +1,13 @@
 {
   "name": "happybirthdaysamchan",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "https://spwisner.github.io/happybirthdaysamchan/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-confetti": "^3.1.0",
     "react-dom": "^16.8.6",
+    "react-mp3-player": "0.3.7",
     "react-scripts": "3.0.1",
     "react-use": "^8.4.0"
   },
